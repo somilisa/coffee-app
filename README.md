@@ -10,6 +10,7 @@ Welcome to the Coffee Website repository! This is a web application for coffee e
 
 - [Features](#features)
 - [Demo](#demo)
+- [Inspiration](#inspo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
@@ -25,8 +26,10 @@ Welcome to the Coffee Website repository! This is a web application for coffee e
 
 ## Demo
 
-Check out the live demo of the Coffee Website [here](https://example.com).
+Check out the live demo of the Coffee Website [here]([https://somilisa.github.io/coffee-app/]).
 
+## Inspo
+Inspired from [here](https://www.figma.com/file/K6Q3DjUyQXApdB6Nxz8hIQ/Figma-Design---Responsive-coffee-website-(Community)?node-id=1%3A9&mode=dev)
 ## Installation
 
 To run this website locally on your machine, follow these steps:
