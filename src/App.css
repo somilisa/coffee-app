@@ -173,10 +173,6 @@ header nav p {
   gap: 166px;
 }
 
-.products-description {
-  /* width: 30%; */
-}
-
 .products-description button {
   margin: 2rem 0;
   width: fit-content;
@@ -184,8 +180,8 @@ header nav p {
   border: transparent;
   outline: transparent;
   padding: 14px 28px;
-  background: var(--second-color, #DDB66F);
-  box-shadow: 0px 8px 32px 0px rgba(221, 183, 112, 0.25);
+  background: var(--first-color-alt, #2B1712);
+  box-shadow: 0px 8px 24px 0px rgba(27, 17, 14, 0.50);
   color: var(--white-color, #FFF);
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
@@ -275,13 +271,14 @@ header nav p {
 }
 
 .steps {
-  background: url('../public/Assets/bg-coffee-beans.png'), #492D26;
+  background: url('./Assets/bg-coffee-beans.png'), #492D26;
 }
 
 .steps-group {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 88px;
 }
 
 .step {
@@ -289,10 +286,11 @@ header nav p {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 48px;
 }
 
 .step:nth-child(2) {
+  margin-top: 72px;
   flex-direction: column-reverse;
 }
 
@@ -318,8 +316,7 @@ header nav p {
   width: 100%;
   margin: auto;
   padding: 0 160px;
-  position: relative;
-  top: 50px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 88px;
@@ -336,8 +333,22 @@ header nav p {
 
 .step-image-circle img {
   position: relative;
-  top: 45px;
-  left: 15px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-image-circle p {
+  z-index: 2;
+  position: relative;
+  color: var(--first-color, #492D26);
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%;
+  top: -13px;
+  left: 18px;
 }
 
 .products h1 {
@@ -357,7 +368,7 @@ header nav p {
 .footer {
   margin-top: -150px;
   border-radius: 104px 104px 0px 0px;
-  background: url('../public/Assets/bg-coffee-beans.png'), #2B1712;
+  background: url('./Assets/bg-coffee-beans.png'), #2B1712;
   ;
   max-height: 900px;
   padding-bottom: 150px;
@@ -460,6 +471,15 @@ header nav p {
   .hero {
     flex-direction: column-reverse;
   }
+  .home-data {
+    max-width: 1440px;
+    padding: 0 24px;
+    align-items: center;
+    text-align: center;
+  }
+  .home-title h1 {
+    font-size: 52px;
+  }
   .products {
     border-radius: 64px 64px 0 0;
   }
@@ -498,18 +518,23 @@ header nav p {
   .about-group h1 {
     text-align: center;
   }
+  .steps-container {
+    padding: 0 24px;
+  }
+  .steps-group {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .step {
+    gap: 24px;
+  }
+  .step:nth-child(2) {
+    margin: 0 0 0 104px;
+    flex-direction: column;
+  }
   .footer-container {
     flex-direction: column;
     gap: 30px;
     padding: 0 24px;
-  }
-  .home-data {
-    max-width: 1440px;
-    padding: 0 24px;
-    align-items: center;
-    text-align: center;
-  }
-  .home-title h1 {
-    font-size: 52px;
   }
 }

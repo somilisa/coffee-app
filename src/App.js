@@ -1,5 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import logo2 from './Assets/logo.png';
+
 import './App.css';
+import { images } from './constants';
 
 function App() {
   return (
@@ -7,7 +10,8 @@ function App() {
       <section className='home'>
         <header>
           <div className='logo'>
-            <img className='logo' src='Assets\logo.png' />
+            <img className='logo' src={images.logo} alt='coffetto logo' />
+
             <p className='brand-name'> Coffetto</p>
           </div>
           <nav>
@@ -18,15 +22,15 @@ function App() {
           </nav>
         </header>
         <div className='hero'>
-          <img src='Assets\home-coffee.png' />
+          <img src={images.home_coffee} alt='home coffee' />
           <div className='home-data'>
             <h3>Exceptional Quality</h3>
             <div className='home-title'>
               <h1>
                 It's time for a good coffee{' '}
                 <span>
-                  <img src='Assets\home-coffee-title.png' alt='' />
-                </span>{' '}
+                  <img src={images.home_coffee_title} alt='' />
+                </span>
               </h1>
             </div>
             <p>
@@ -77,17 +81,17 @@ function App() {
           </div>
           <div className='products-group'>
             <div className='product'>
-              <img src='Assets\product-coffee-1.png' alt='' />
+              <img src={images.product_coffee_1} alt='' />
               <p>Classic Coffee</p>
               <p>$17.90</p>
             </div>
             <div className='product'>
-              <img src='Assets\product-coffee-2.png' alt='' />
+              <img src={images.product_coffee_2} alt='' />
               <p>Black Coffee</p>
               <p>$24.90</p>
             </div>
             <div className='product'>
-              <img src='Assets\product-coffee-3.png' alt='' />
+              <img src={images.product_coffee_3} alt='' />
               <p>Strong Coffee</p>
               <p>$32.90</p>
             </div>
@@ -97,7 +101,7 @@ function App() {
       <section className='about'>
         <div className='about-container'>
           <div className='about-description'>
-            <img src='Assets\about-coffee.png' alt='' />
+            <img src={images.about_coffee} alt='about coffee' />
           </div>
           <div className='about-group'>
             <h1>Our History</h1>
@@ -111,12 +115,93 @@ function App() {
         </div>
       </section>
       <section className='products steps'>
-        <h1> Steps of manufacturing our products</h1>
         <div className='steps-container'>
+          <h1> Steps of manufacturing our products</h1>
           <div className='steps-group'>
-            <div className='steps' />
-            <div className='steps' />
-            <div className='steps' />
+            <div className='step'>
+              <div className='step-image-circle'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width={115}
+                  height={115}
+                  viewBox='0 0 115 115'
+                  fill='none'
+                >
+                  <circle
+                    cx='57.5'
+                    cy='57.5'
+                    r={50}
+                    fill='#DDB66F'
+                    stroke='#492D26'
+                    strokeWidth={15}
+                  />
+                </svg>
+                <div>
+                  <p>01</p>
+                </div>
+                <img src={images.steps_green_coffee} alt='green coffee' />
+              </div>
+              <p>
+                Harvest occurs annually when the coffee beans reach maturity and
+                are collected for processing.
+              </p>
+            </div>
+            <div className='step'>
+              <div className='step-image-circle'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width={115}
+                  height={115}
+                  viewBox='0 0 115 115'
+                  fill='none'
+                >
+                  <circle
+                    cx='57.5'
+                    cy='57.5'
+                    r={50}
+                    fill='#DDB66F'
+                    stroke='#492D26'
+                    strokeWidth={15}
+                  />
+                </svg>
+                <div>
+                  <p>02</p>
+                </div>
+                <img src={images.steps_coffee_beans} alt='' />
+              </div>
+              <p>
+                The beans are dried using a wet or dry technique, depending on
+                the taste we want to obtain.
+              </p>
+            </div>
+            <div className='step'>
+              <div className='step-image-circle'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width={115}
+                  height={115}
+                  viewBox='0 0 115 115'
+                  fill='none'
+                >
+                  <circle
+                    cx='57.5'
+                    cy='57.5'
+                    r={50}
+                    fill='#DDB66F'
+                    stroke='#492D26'
+                    strokeWidth={15}
+                  />
+                </svg>
+                <div>
+                  <p>03</p>
+                </div>
+                <img src={images.steps_ground_coffee} alt='' />
+              </div>
+              <p>
+                Harvest occurs annually when the coffee beans reach maturity and
+                are collected for processing.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -129,7 +214,7 @@ function App() {
             <p>John Doe</p>
           </div>
           <div className='about-description'>
-            <img src='Assets\testimonial-coffee.png' alt='' />
+            <img src={images.testimonial_coffee} alt='testimonial coffee' />
           </div>
         </div>
       </section>
@@ -137,7 +222,7 @@ function App() {
         <div className='footer-container'>
           <div>
             <div className='logo'>
-              <img className='logo' src='Assets\logo.png' />
+              <img className='logo' src={images.logo} alt='coffetto logo' />
               <p className='brand-name'> Coffetto</p>
             </div>
             <h1>Sign up for our newsletter</h1>
