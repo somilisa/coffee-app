@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/coffee-app/static/css/main.84282e7d.css",
-    "main.js": "/coffee-app/static/js/main.74ac6bcc.js",
+    "main.css": "/coffee-app/static/css/main.00aee00b.css",
+    "main.js": "/coffee-app/static/js/main.adaa3006.js",
     "static/js/787.68ac0a90.chunk.js": "/coffee-app/static/js/787.68ac0a90.chunk.js",
+    "static/media/about_coffee.png": "/coffee-app/static/media/about_coffee.f29f86a23de00bfdbf91.png",
+    "static/media/testimonial-coffee.png": "/coffee-app/static/media/testimonial-coffee.6b1253204491ae7af901.png",
+    "static/media/home-coffee.png": "/coffee-app/static/media/home-coffee.8e4755a47e4dcb283fd7.png",
     "static/media/bg-coffee-beans.png": "/coffee-app/static/media/bg-coffee-beans.652387cda6bf5545f0a9.png",
+    "static/media/steps-ground-coffee.png": "/coffee-app/static/media/steps-ground-coffee.1431b6f6335984d27ff2.png",
+    "static/media/steps-green-coffee.png": "/coffee-app/static/media/steps-green-coffee.a1fb97da99ab0957316f.png",
+    "static/media/steps-coffee-beans.png": "/coffee-app/static/media/steps-coffee-beans.6216beb2093e56005d8b.png",
+    "static/media/product-coffee-3.png": "/coffee-app/static/media/product-coffee-3.710bca33b174d9dff30b.png",
+    "static/media/product-coffee-1.png": "/coffee-app/static/media/product-coffee-1.c99e1aa746f5e80b9867.png",
+    "static/media/product-coffee-2.png": "/coffee-app/static/media/product-coffee-2.82161724a39c0f5cd725.png",
+    "static/media/home_coffee_title.png": "/coffee-app/static/media/home_coffee_title.bce8f11ee4fef5f2c3af.png",
     "index.html": "/coffee-app/index.html",
-    "static/media/logo.svg": "/coffee-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "main.84282e7d.css.map": "/coffee-app/static/css/main.84282e7d.css.map",
-    "main.74ac6bcc.js.map": "/coffee-app/static/js/main.74ac6bcc.js.map",
+    "main.00aee00b.css.map": "/coffee-app/static/css/main.00aee00b.css.map",
+    "main.adaa3006.js.map": "/coffee-app/static/js/main.adaa3006.js.map",
     "787.68ac0a90.chunk.js.map": "/coffee-app/static/js/787.68ac0a90.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84282e7d.css",
-    "static/js/main.74ac6bcc.js"
+    "static/css/main.00aee00b.css",
+    "static/js/main.adaa3006.js"
   ]
 }
