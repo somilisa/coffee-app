@@ -8,19 +8,20 @@ function App() {
   return (
     <>
       <section className='home'>
-        <header>
-          <div className='logo'>
-            <img className='logo' src={images.logo} alt='coffetto logo' />
-
-            <p className='brand-name'> Coffetto</p>
-          </div>
+        <div className='header-container'>
           <nav>
-            <p>Home</p>
-            <p>About</p>
-            <p>Steps</p>
-            <p>Testimonial</p>
+            <div className='logo'>
+              <img className='logo' src={images.logo} alt='coffetto logo' />
+              <p className='brand-name'> Coffetto</p>
+            </div>
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Stelis</li>
+              <li>Testimonial</li>
+            </ul>
           </nav>
-        </header>
+        </div>
         <div className='hero'>
           <img src={images.home_coffee} alt='home coffee' />
           <div className='home-data'>
