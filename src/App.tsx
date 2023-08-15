@@ -2,7 +2,6 @@
 // import logo2 from './Assets/logo.png';
 
 import './App.css';
-import { images } from './constants';
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
         <div className='header-container'>
           <nav>
             <div className='logo'>
-              <img className='logo' src={images.logo} alt='coffetto logo' />
+              <img className='logo' src='./logo.png' alt='coffetto logo' />
               <p className='brand-name'> Coffetto</p>
             </div>
             <ul>
@@ -23,14 +22,14 @@ function App() {
           </nav>
         </div>
         <div className='hero'>
-          <img src={images.home_coffee} alt='home coffee' />
+          <img src='./home_coffee.png' alt='home coffee' />
           <div className='home-data'>
             <h3>Exceptional Quality</h3>
             <div className='home-title'>
               <h1>
                 It's time for a good coffee{' '}
                 <span>
-                  <img src={images.home_coffee_title} alt='' />
+                  <img src='./home_coffee_title.png' alt='' />
                 </span>
               </h1>
             </div>
@@ -82,17 +81,17 @@ function App() {
           </div>
           <div className='products-group'>
             <div className='product'>
-              <img src={images.product_coffee_1} alt='' />
+              <img src='./product_coffee_1.png' alt='' />
               <p>Classic Coffee</p>
               <p>$17.90</p>
             </div>
             <div className='product'>
-              <img src={images.product_coffee_2} alt='' />
+              <img src='./product_coffee_2.png' alt='' />
               <p>Black Coffee</p>
               <p>$24.90</p>
             </div>
             <div className='product'>
-              <img src={images.product_coffee_3} alt='' />
+              <img src='./product_coffee_3.png' alt='' />
               <p>Strong Coffee</p>
               <p>$32.90</p>
             </div>
@@ -102,7 +101,7 @@ function App() {
       <section className='about'>
         <div className='about-container'>
           <div className='about-description'>
-            <img src={images.about_coffee} alt='about coffee' />
+            <img src='./about_coffee.png' alt='about coffee' />
           </div>
           <div className='about-group'>
             <h1>Our History</h1>
@@ -140,7 +139,7 @@ function App() {
                 <div>
                   <p>01</p>
                 </div>
-                <img src={images.steps_green_coffee} alt='green coffee' />
+                <img src='./steps_green_coffee.png' alt='green coffee' />
               </div>
               <p>
                 Harvest occurs annually when the coffee beans reach maturity and
@@ -168,7 +167,7 @@ function App() {
                 <div>
                   <p>02</p>
                 </div>
-                <img src={images.steps_coffee_beans} alt='' />
+                <img src='./steps_coffee_beans.png' alt='coffee beans' />
               </div>
               <p>
                 The beans are dried using a wet or dry technique, depending on
@@ -196,7 +195,7 @@ function App() {
                 <div>
                   <p>03</p>
                 </div>
-                <img src={images.steps_ground_coffee} alt='' />
+                <img src='./steps_ground_coffee.png' alt='' />
               </div>
               <p>
                 Harvest occurs annually when the coffee beans reach maturity and
@@ -215,7 +214,7 @@ function App() {
             <p>John Doe</p>
           </div>
           <div className='about-description'>
-            <img src={images.testimonial_coffee} alt='testimonial coffee' />
+            <img src='./testimonial_coffee.png' alt='testimonial coffee' />
           </div>
         </div>
       </section>
@@ -223,14 +222,14 @@ function App() {
         <div className='footer-top'>
           <div>
             <div className='logo'>
-              <img className='logo' src={images.logo} />
+              <img className='logo' src='/logo.png' />
               <p className='brand-name'> Coffetto</p>
             </div>
             <h1>Sign up for our newsletter</h1>
           </div>
           <div className='footer-group'>
-            <form action className='footer-form'>
-              <input type='email' name id defaultValue='Enter e-mail address' />
+            <form className='footer-form'>
+              <input type='email' defaultValue='Enter e-mail address' />
             </form>
             <button>
               Subscribe{' '}

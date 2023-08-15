@@ -276,7 +276,7 @@ nav ul li {
 }
 
 .steps {
-  background: url('./Assets/bg-coffee-beans.png'), #492D26;
+  background-image: url('../public/bg-coffee-beans.png'), #492D26;
 }
 
 .steps-group {
@@ -284,7 +284,7 @@ nav ul li {
   flex-direction: row;
   justify-content: space-between;
   gap: 88px;
-  background-image: url('./Assets/Steps-line-dash.svg');
+  background-image: url('../public/Steps-line-dash.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -375,7 +375,7 @@ nav ul li {
 .footer {
   margin-top: -150px;
   border-radius: 104px 104px 0px 0px;
-  background: url('./Assets/bg-coffee-beans.png'), #2B1712;
+  background: url('../public/bg-coffee-beans.png'), #2B1712;
   padding-bottom: 150px;
   display: flex;
   flex-direction: column;
