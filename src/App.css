@@ -276,7 +276,7 @@ nav ul li {
 }
 
 .steps {
-  background-image: url('../public/bg-coffee-beans.png'), #492D26;
+  background: url('../public/bg-coffee-beans.png'), #2B1712;
 }
 
 .steps-group {

@@ -22,7 +22,7 @@ function App() {
           </nav>
         </div>
         <div className='hero'>
-          <img src='./home_coffee.png' alt='home coffee' />
+          <img src='./home-coffee.png' alt='home coffee' />
           <div className='home-data'>
             <h3>Exceptional Quality</h3>
             <div className='home-title'>
@@ -81,17 +81,17 @@ function App() {
           </div>
           <div className='products-group'>
             <div className='product'>
-              <img src='./product_coffee_1.png' alt='' />
+              <img src='./product-coffee-1.png' alt='' />
               <p>Classic Coffee</p>
               <p>$17.90</p>
             </div>
             <div className='product'>
-              <img src='./product_coffee_2.png' alt='' />
+              <img src='./product-coffee-2.png' alt='' />
               <p>Black Coffee</p>
               <p>$24.90</p>
             </div>
             <div className='product'>
-              <img src='./product_coffee_3.png' alt='' />
+              <img src='./product-coffee-3.png' alt='' />
               <p>Strong Coffee</p>
               <p>$32.90</p>
             </div>
@@ -139,7 +139,7 @@ function App() {
                 <div>
                   <p>01</p>
                 </div>
-                <img src='./steps_green_coffee.png' alt='green coffee' />
+                <img src='./steps-green-coffee.png' alt='green coffee' />
               </div>
               <p>
                 Harvest occurs annually when the coffee beans reach maturity and
@@ -167,7 +167,7 @@ function App() {
                 <div>
                   <p>02</p>
                 </div>
-                <img src='./steps_coffee_beans.png' alt='coffee beans' />
+                <img src='./steps-coffee-beans.png' alt='coffee beans' />
               </div>
               <p>
                 The beans are dried using a wet or dry technique, depending on
@@ -195,7 +195,7 @@ function App() {
                 <div>
                   <p>03</p>
                 </div>
-                <img src='./steps_ground_coffee.png' alt='' />
+                <img src='./steps-ground-coffee.png' alt='' />
               </div>
               <p>
                 Harvest occurs annually when the coffee beans reach maturity and
@@ -214,7 +214,7 @@ function App() {
             <p>John Doe</p>
           </div>
           <div className='about-description'>
-            <img src='./testimonial_coffee.png' alt='testimonial coffee' />
+            <img src='./testimonial-coffee.png' alt='testimonial coffee' />
           </div>
         </div>
       </section>
