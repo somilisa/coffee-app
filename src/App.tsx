@@ -14,10 +14,18 @@ function App() {
               <p className='brand-name'> Coffetto</p>
             </div>
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Stelis</li>
-              <li>Testimonial</li>
+              <li>
+                <a href='#'>Home</a>
+              </li>
+              <li>
+                <a href='#about'>About</a>
+              </li>
+              <li>
+                <a href='#steps'>Steps</a>
+              </li>
+              <li>
+                <a href='#testimonial'>Testimonial</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -98,7 +106,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className='about'>
+      <section className='about' id='about'>
         <div className='about-container'>
           <div className='about-description'>
             <img src='./about_coffee.png' alt='about coffee' />
@@ -114,7 +122,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className='products steps'>
+      <section className='products steps' id='steps'>
         <div className='steps-container'>
           <h1> Steps of manufacturing our products</h1>
           <div className='steps-group'>
@@ -205,7 +213,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className='about'>
+      <section className='about' id='testimonial'>
         <div className='about-container'>
           <div className='about-group'>
             <h1>
