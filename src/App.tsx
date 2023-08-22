@@ -11,7 +11,7 @@ import Footer from './compoments/Footer';
 function App() {
   return (
     <>
-    <Home></Home>  
+    <Home/>  
     <Products></Products>    
      <Steps></Steps>
      <Testimonial></Testimonial>
