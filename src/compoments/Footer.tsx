@@ -4,7 +4,7 @@ import data from './data';
 import ArrowSVG from './arrow.svg';
 
 interface Props {
-  efl: string;
+
 }
 
 const Footer = (props: Props) => {
@@ -36,7 +36,7 @@ const Footer = (props: Props) => {
                 fill='black'
               />
             </svg>
-            <ArrowSVG />
+            {/* <ArrowSVG /> */}
           </button>
           <p>
             We care about your data. Read our <a>Privacy Policy</a>
