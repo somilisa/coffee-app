@@ -1,53 +1,49 @@
-import path from 'path';
-import React from 'react';
-import data from './data';
-import ArrowSVG from './arrow.svg';
+import path from "path";
+import React from "react";
+import data from "./data";
 
-interface Props {
-
-}
+interface Props {}
 
 const Footer = (props: Props) => {
   return (
-    <footer className='footer'>
-      <div className='footer-top'>
+    <footer className="footer">
+      <div className="footer-top">
         <div>
-          <div className='logo'>
-            <img className='logo' src='/logo.png' />
-            <p className='brand-name'> Coffetto</p>
+          <div className="logo">
+            <img className="logo" src="/logo.png" />
+            <p className="brand-name"> Coffetto</p>
           </div>
           <h1>Sign up for our newsletter</h1>
         </div>
-        <div className='footer-group'>
-          <form className='footer-form'>
-            <input type='email' defaultValue='Enter e-mail address' />
+        <div className="footer-group">
+          <form className="footer-form">
+            <input type="email" defaultValue="Enter e-mail address" />
           </form>
           <button>
-            Subscribe{' '}
+            Subscribe{" "}
             <svg
-              xmlns='http://www.w3.org/2000/svg'
+              xmlns="http://www.w3.org/2000/svg"
               width={25}
               height={24}
-              viewBox='0 0 25 24'
-              fill='none'
+              viewBox="0 0 25 24"
+              fill="none"
             >
               <path
-                d='M13.672 12L8.72205 7.04999L10.136 5.63599L16.5 12L10.136 18.364L8.72205 16.95L13.672 12Z'
-                fill='black'
+                d="M13.672 12L8.72205 7.04999L10.136 5.63599L16.5 12L10.136 18.364L8.72205 16.95L13.672 12Z"
+                fill="black"
               />
             </svg>
-            {/* <ArrowSVG /> */}
           </button>
           <p>
             We care about your data. Read our <a>Privacy Policy</a>
           </p>
         </div>
       </div>
-      <div className='footer-bottom'>
-        <div className='social'>
+      <div className="footer-bottom">
+        <div className="social">
           {data.map(({ xmlns, width, height, viewBox, fill, path }) => (
             <svg key={path.d}>
-              xmlns={'http://www.w3.org/2000/svg'}
+              xmlns={"http://www.w3.org/2000/svg"}
               width={width}
               height={height}
               viewBox={viewBox}
@@ -92,7 +88,7 @@ const Footer = (props: Props) => {
               />
             </svg> */}
         </div>
-        <p className='copyright'>© Copyright Bedimcode. All rights reserved</p>
+        <p className="copyright">© Copyright Bedimcode. All rights reserved</p>
       </div>
     </footer>
   );
